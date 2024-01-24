@@ -1,0 +1,34 @@
+PODS:
+  - FlagPhoneNumber (0.8.0):
+    - FlagPhoneNumber/libPhoneNumberiOS (= 0.8.0)
+  - FlagPhoneNumber/libPhoneNumberiOS (0.8.0)
+  - ImageSlideshow/Core (1.9.2)
+  - ImageSlideshow/SDWebImage (1.9.2):
+    - ImageSlideshow/Core
+    - SDWebImage (>= 3.7)
+  - OTPFieldView (1.0.1)
+  - SDWebImage (5.18.5):
+    - SDWebImage/Core (= 5.18.5)
+  - SDWebImage/Core (5.18.5)
+
+DEPENDENCIES:
+  - FlagPhoneNumber
+  - ImageSlideshow/SDWebImage
+  - OTPFieldView
+
+SPEC REPOS:
+  trunk:
+    - FlagPhoneNumber
+    - ImageSlideshow
+    - OTPFieldView
+    - SDWebImage
+
+SPEC CHECKSUMS:
+  FlagPhoneNumber: 3712455b95f66cb0f2016fef7d9e34cddf8c7f9a
+  ImageSlideshow: be305b54eaf2b2cfc7a7141c7c734605d44dc07d
+  OTPFieldView: 700a752fe62c41d1c4914c78aa500fb30d97c255
+  SDWebImage: 7ac2b7ddc5e8484c79aa90fc4e30b149d6a2c88f
+
+PODFILE CHECKSUM: 10fc9dfde26dc737335f135ebb44da24c8cbf9f6
+
+COCOAPODS: 1.14.3

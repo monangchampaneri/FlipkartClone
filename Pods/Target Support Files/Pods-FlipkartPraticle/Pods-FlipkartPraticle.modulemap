@@ -1,0 +1,6 @@
+framework module Pods_FlipkartPraticle {
+  umbrella header "Pods-FlipkartPraticle-umbrella.h"
+
+  export *
+  module * { export * }
+}

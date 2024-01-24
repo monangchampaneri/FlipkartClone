@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D3E3CE91C2EE81FAAEB7D46 /* Pods_FlipkartPraticle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A0B77C17FD9C7CD81BE3EF6 /* Pods_FlipkartPraticle.framework */; };
+		FC5D4F092B5FDBC00022F7EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5D4F082B5FDBC00022F7EB /* AppDelegate.swift */; };
+		FC5D4F0B2B5FDBC00022F7EB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5D4F0A2B5FDBC00022F7EB /* SceneDelegate.swift */; };
+		FC5D4F102B5FDBC00022F7EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC5D4F0E2B5FDBC00022F7EB /* Main.storyboard */; };
+		FC5D4F122B5FDBC10022F7EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC5D4F112B5FDBC10022F7EB /* Assets.xcassets */; };
+		FC5D4F152B5FDBC10022F7EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC5D4F132B5FDBC10022F7EB /* LaunchScreen.storyboard */; };
+		FC5D4F232B5FE2250022F7EB /* Riona Sans W04 Bold Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC5D4F222B5FE2250022F7EB /* Riona Sans W04 Bold Italic.ttf */; };
+		FC5D4F282B5FE8760022F7EB /* MNTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5D4F272B5FE8760022F7EB /* MNTextField.swift */; };
+		FC5D4F2A2B5FEC250022F7EB /* MNView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5D4F292B5FEC250022F7EB /* MNView.swift */; };
+		FC5D4F2C2B5FEFFF0022F7EB /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5D4F2B2B5FEFFE0022F7EB /* LoginVC.swift */; };
+		FC5E9C5D2B60F17B00638A67 /* DashboardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5E9C5C2B60F17B00638A67 /* DashboardVC.swift */; };
+		FC80949B2B611B980029879F /* BannerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC80949A2B611B980029879F /* BannerCell.swift */; };
+		FC80949E2B611DD50029879F /* MNPageIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC80949D2B611DD50029879F /* MNPageIndicator.swift */; };
+		FC8094A12B611EE00029879F /* DashboardExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8094A02B611EE00029879F /* DashboardExtension.swift */; };
+		FC8094A32B6124190029879F /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8094A22B6124190029879F /* CategoryCell.swift */; };
+		FC8094A52B6126540029879F /* CategoryColellectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8094A42B6126540029879F /* CategoryColellectionCell.swift */; };
+		FC8094A82B612E520029879F /* ExclusiveColellectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8094A62B612E510029879F /* ExclusiveColellectionCell.swift */; };
+		FC8094A92B612E520029879F /* ExclusiveProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8094A72B612E510029879F /* ExclusiveProductCell.swift */; };
+		FC8094AB2B6133C70029879F /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8094AA2B6133C70029879F /* ProductCell.swift */; };
+		FC8094AD2B6133D90029879F /* ProductCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8094AC2B6133D90029879F /* ProductCollectionCell.swift */; };
+		FCA449EB2B60D5B800D234C1 /* Valiadation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA449EA2B60D5B800D234C1 /* Valiadation.swift */; };
+		FCA449ED2B60E20700D234C1 /* OTPVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA449EC2B60E20700D234C1 /* OTPVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0D965A5DBC3BB93EA4EB753D /* Pods-FlipkartPraticle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlipkartPraticle.debug.xcconfig"; path = "Target Support Files/Pods-FlipkartPraticle/Pods-FlipkartPraticle.debug.xcconfig"; sourceTree = "<group>"; };
+		5A0B77C17FD9C7CD81BE3EF6 /* Pods_FlipkartPraticle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlipkartPraticle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		707559632E790DC5BEB437E4 /* Pods-FlipkartPraticle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlipkartPraticle.release.xcconfig"; path = "Target Support Files/Pods-FlipkartPraticle/Pods-FlipkartPraticle.release.xcconfig"; sourceTree = "<group>"; };
+		FC5D4F052B5FDBC00022F7EB /* FlipkartPraticle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlipkartPraticle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC5D4F082B5FDBC00022F7EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FC5D4F0A2B5FDBC00022F7EB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FC5D4F0F2B5FDBC00022F7EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC5D4F112B5FDBC10022F7EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC5D4F142B5FDBC10022F7EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC5D4F162B5FDBC10022F7EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC5D4F222B5FE2250022F7EB /* Riona Sans W04 Bold Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Riona Sans W04 Bold Italic.ttf"; sourceTree = "<group>"; };
+		FC5D4F272B5FE8760022F7EB /* MNTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MNTextField.swift; sourceTree = "<group>"; };
+		FC5D4F292B5FEC250022F7EB /* MNView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MNView.swift; sourceTree = "<group>"; };
+		FC5D4F2B2B5FEFFE0022F7EB /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		FC5E9C5C2B60F17B00638A67 /* DashboardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardVC.swift; sourceTree = "<group>"; };
+		FC80949A2B611B980029879F /* BannerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerCell.swift; sourceTree = "<group>"; };
+		FC80949D2B611DD50029879F /* MNPageIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MNPageIndicator.swift; sourceTree = "<group>"; };
+		FC8094A02B611EE00029879F /* DashboardExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardExtension.swift; sourceTree = "<group>"; };
+		FC8094A22B6124190029879F /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		FC8094A42B6126540029879F /* CategoryColellectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryColellectionCell.swift; sourceTree = "<group>"; };
+		FC8094A62B612E510029879F /* ExclusiveColellectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExclusiveColellectionCell.swift; sourceTree = "<group>"; };
+		FC8094A72B612E510029879F /* ExclusiveProductCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExclusiveProductCell.swift; sourceTree = "<group>"; };
+		FC8094AA2B6133C70029879F /* ProductCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		FC8094AC2B6133D90029879F /* ProductCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCollectionCell.swift; sourceTree = "<group>"; };
+		FCA449EA2B60D5B800D234C1 /* Valiadation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Valiadation.swift; sourceTree = "<group>"; };
+		FCA449EC2B60E20700D234C1 /* OTPVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC5D4F022B5FDBC00022F7EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D3E3CE91C2EE81FAAEB7D46 /* Pods_FlipkartPraticle.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9686D6704325351FEF539743 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0D965A5DBC3BB93EA4EB753D /* Pods-FlipkartPraticle.debug.xcconfig */,
+				707559632E790DC5BEB437E4 /* Pods-FlipkartPraticle.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E1634641F69EDD246080B0D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5A0B77C17FD9C7CD81BE3EF6 /* Pods_FlipkartPraticle.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC5D4EFC2B5FDBC00022F7EB = {
+			isa = PBXGroup;
+			children = (
+				FC5D4F072B5FDBC00022F7EB /* FlipkartPraticle */,
+				FC5D4F062B5FDBC00022F7EB /* Products */,
+				9686D6704325351FEF539743 /* Pods */,
+				E1634641F69EDD246080B0D6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FC5D4F062B5FDBC00022F7EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC5D4F052B5FDBC00022F7EB /* FlipkartPraticle.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC5D4F072B5FDBC00022F7EB /* FlipkartPraticle */ = {
+			isa = PBXGroup;
+			children = (
+				FC5D4F242B5FE2280022F7EB /* Utility */,
+				FC5D4F1F2B5FDBDF0022F7EB /* ViewModel */,
+				FC5D4F1E2B5FDBDA0022F7EB /* Model */,
+				FC5D4F1C2B5FDBC70022F7EB /* Delegate */,
+				FC5D4F1D2B5FDBD20022F7EB /* View */,
+				FC5D4F112B5FDBC10022F7EB /* Assets.xcassets */,
+				FC5D4F162B5FDBC10022F7EB /* Info.plist */,
+			);
+			path = FlipkartPraticle;
+			sourceTree = "<group>";
+		};
+		FC5D4F1C2B5FDBC70022F7EB /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				FC5D4F082B5FDBC00022F7EB /* AppDelegate.swift */,
+				FC5D4F0A2B5FDBC00022F7EB /* SceneDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		FC5D4F1D2B5FDBD20022F7EB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FC5D4F212B5FDBF50022F7EB /* Controller */,
+				FC5D4F202B5FDBED0022F7EB /* Storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FC5D4F1E2B5FDBDA0022F7EB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FC5D4F1F2B5FDBDF0022F7EB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FC80949F2B611E9A0029879F /* HomePage */,
+				FC8094992B611B810029879F /* Cell */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FC5D4F202B5FDBED0022F7EB /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				FC5D4F0E2B5FDBC00022F7EB /* Main.storyboard */,
+				FC5D4F132B5FDBC10022F7EB /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		FC5D4F212B5FDBF50022F7EB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FC5D4F2B2B5FEFFE0022F7EB /* LoginVC.swift */,
+				FCA449EC2B60E20700D234C1 /* OTPVC.swift */,
+				FC5E9C5C2B60F17B00638A67 /* DashboardVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FC5D4F242B5FE2280022F7EB /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				FC5D4F252B5FE8550022F7EB /* Class */,
+				FC5D4F262B5FE85B0022F7EB /* Font */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		FC5D4F252B5FE8550022F7EB /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				FC5D4F292B5FEC250022F7EB /* MNView.swift */,
+				FC5D4F272B5FE8760022F7EB /* MNTextField.swift */,
+				FCA449EA2B60D5B800D234C1 /* Valiadation.swift */,
+				FC80949D2B611DD50029879F /* MNPageIndicator.swift */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		FC5D4F262B5FE85B0022F7EB /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				FC5D4F222B5FE2250022F7EB /* Riona Sans W04 Bold Italic.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		FC8094992B611B810029879F /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				FC8094AA2B6133C70029879F /* ProductCell.swift */,
+				FC8094A62B612E510029879F /* ExclusiveColellectionCell.swift */,
+				FC8094A72B612E510029879F /* ExclusiveProductCell.swift */,
+				FC80949A2B611B980029879F /* BannerCell.swift */,
+				FC8094A22B6124190029879F /* CategoryCell.swift */,
+				FC8094A42B6126540029879F /* CategoryColellectionCell.swift */,
+				FC8094AC2B6133D90029879F /* ProductCollectionCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		FC80949F2B611E9A0029879F /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				FC8094A02B611EE00029879F /* DashboardExtension.swift */,
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC5D4F042B5FDBC00022F7EB /* FlipkartPraticle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC5D4F192B5FDBC10022F7EB /* Build configuration list for PBXNativeTarget "FlipkartPraticle" */;
+			buildPhases = (
+				1417457C3021C885317663DC /* [CP] Check Pods Manifest.lock */,
+				FC5D4F012B5FDBC00022F7EB /* Sources */,
+				FC5D4F022B5FDBC00022F7EB /* Frameworks */,
+				FC5D4F032B5FDBC00022F7EB /* Resources */,
+				7BE21582CDFBCDDFBC191EE9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlipkartPraticle;
+			productName = FlipkartPraticle;
+			productReference = FC5D4F052B5FDBC00022F7EB /* FlipkartPraticle.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC5D4EFD2B5FDBC00022F7EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					FC5D4F042B5FDBC00022F7EB = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = FC5D4F002B5FDBC00022F7EB /* Build configuration list for PBXProject "FlipkartPraticle" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC5D4EFC2B5FDBC00022F7EB;
+			productRefGroup = FC5D4F062B5FDBC00022F7EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC5D4F042B5FDBC00022F7EB /* FlipkartPraticle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC5D4F032B5FDBC00022F7EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC5D4F152B5FDBC10022F7EB /* LaunchScreen.storyboard in Resources */,
+				FC5D4F122B5FDBC10022F7EB /* Assets.xcassets in Resources */,
+				FC5D4F232B5FE2250022F7EB /* Riona Sans W04 Bold Italic.ttf in Resources */,
+				FC5D4F102B5FDBC00022F7EB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1417457C3021C885317663DC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FlipkartPraticle-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7BE21582CDFBCDDFBC191EE9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FlipkartPraticle/Pods-FlipkartPraticle-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FlipkartPraticle/Pods-FlipkartPraticle-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FlipkartPraticle/Pods-FlipkartPraticle-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC5D4F012B5FDBC00022F7EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC5D4F092B5FDBC00022F7EB /* AppDelegate.swift in Sources */,
+				FC8094A12B611EE00029879F /* DashboardExtension.swift in Sources */,
+				FC8094A92B612E520029879F /* ExclusiveProductCell.swift in Sources */,
+				FC5D4F2A2B5FEC250022F7EB /* MNView.swift in Sources */,
+				FCA449EB2B60D5B800D234C1 /* Valiadation.swift in Sources */,
+				FCA449ED2B60E20700D234C1 /* OTPVC.swift in Sources */,
+				FC5D4F0B2B5FDBC00022F7EB /* SceneDelegate.swift in Sources */,
+				FC5E9C5D2B60F17B00638A67 /* DashboardVC.swift in Sources */,
+				FC8094A82B612E520029879F /* ExclusiveColellectionCell.swift in Sources */,
+				FC8094A52B6126540029879F /* CategoryColellectionCell.swift in Sources */,
+				FC8094AD2B6133D90029879F /* ProductCollectionCell.swift in Sources */,
+				FC5D4F282B5FE8760022F7EB /* MNTextField.swift in Sources */,
+				FC5D4F2C2B5FEFFF0022F7EB /* LoginVC.swift in Sources */,
+				FC80949E2B611DD50029879F /* MNPageIndicator.swift in Sources */,
+				FC8094AB2B6133C70029879F /* ProductCell.swift in Sources */,
+				FC80949B2B611B980029879F /* BannerCell.swift in Sources */,
+				FC8094A32B6124190029879F /* CategoryCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FC5D4F0E2B5FDBC00022F7EB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC5D4F0F2B5FDBC00022F7EB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC5D4F132B5FDBC10022F7EB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC5D4F142B5FDBC10022F7EB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC5D4F172B5FDBC10022F7EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FC5D4F182B5FDBC10022F7EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC5D4F1A2B5FDBC10022F7EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D965A5DBC3BB93EA4EB753D /* Pods-FlipkartPraticle.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FlipkartPraticle/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.monang.FlipkartPraticle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC5D4F1B2B5FDBC10022F7EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 707559632E790DC5BEB437E4 /* Pods-FlipkartPraticle.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FlipkartPraticle/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.monang.FlipkartPraticle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC5D4F002B5FDBC00022F7EB /* Build configuration list for PBXProject "FlipkartPraticle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC5D4F172B5FDBC10022F7EB /* Debug */,
+				FC5D4F182B5FDBC10022F7EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC5D4F192B5FDBC10022F7EB /* Build configuration list for PBXNativeTarget "FlipkartPraticle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC5D4F1A2B5FDBC10022F7EB /* Debug */,
+				FC5D4F1B2B5FDBC10022F7EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC5D4EFD2B5FDBC00022F7EB /* Project object */;
+}
